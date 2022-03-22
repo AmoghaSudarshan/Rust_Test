@@ -11,3 +11,4 @@ jobs:
       - run:
           name: Run Tests
           command: "cargo test"
+      - run: store_test_results 
